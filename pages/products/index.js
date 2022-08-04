@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import path from "path";
 export const getStaticProps = async () => {
   const res = await fetch(
     "https://fakestoreapi.com/products"
